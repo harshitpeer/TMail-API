@@ -12,7 +12,7 @@ npm i tmail-api
 const tmail = require('tmail-api')
 
 const app = tmail('[YOUR_TMAIL_SITE_API]', '[API_KEY]')
-//Example const app = tmail('https://default.tmail.thehp.in', '123123123')
+//Example const app = tmail('https://default.tmail.thehp.in/api', '123123123')
 
 const main = async () => {
   console.log(await app.domains())
